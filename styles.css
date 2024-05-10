@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* Text color */
+}
+
+h1 {
+    text-align: center;
+    color: #3498db; /* Deep blue header color */
+    margin-top: 20px;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark gray form background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #3498db; /* Deep blue label color */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #3498db; /* Deep blue border color */
+    border-radius: 4px;
+    background-color: #333; /* Dark background color for input */
+    color: #fff; /* Text color for input */
+}
+
+button {
+    background-color: #3498db; /* Deep blue button color */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-color: rgb(220, 7, 50);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2980b9; /* Slightly darker blue on hover */
+}
